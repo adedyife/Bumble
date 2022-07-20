@@ -59,7 +59,7 @@
         flex-direction: row;
         justify-content: flex-end;
     }
-    #login{
+   #login{
             justify-self: end;
             background-color:rgb(128, 66, 164);
             border: solid 1px rgb(255, 255, 255);
@@ -78,8 +78,13 @@
             font-style: italic;
         }
 
+        .link:visited{
+            color: white;
+        }
+        
         .register{
             font-style: italic;
         }
+    
     
     }
