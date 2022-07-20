@@ -1,0 +1,73 @@
+@media (max-width:425px){
+
+    body{
+
+        height: 100vh;
+        display: flex;
+        flex-direction: column ;
+        align-items: center;
+        justify-content: center;
+       background:linear-gradient(to bottom,  rgb(150, 48, 245), rgb(255, 255, 255)); 
+        background-repeat: no-repeat;
+    
+    }
+    #container{
+        background-color: rgb(220, 180, 240);
+        margin-top: 1em;
+        height: 80vh;
+        width: 101%;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #profile-photo{
+        margin-top: 1em;
+        width: 65%;
+        height: 15em ;
+        border-radius: 30%;
+    }
+
+    #dot{
+        width: 1em;
+        margin-bottom: -0.5em;
+        margin-top: 0.3em;
+    }
+    h2{
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    }
+    #address{
+        font-style: italic;
+        margin-top: -1em ;
+        font-weight: bold;
+    }
+
+    .buttons{
+        width: 120%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+
+    }
+
+        .click{
+        margin: 0.5em;
+        width: 50%;
+        background-color: rgb(134, 52, 217);
+        border-radius: 1.5em;
+        border: none;
+        height: 2em;
+        font-size: 1em;
+        color: white;
+        font-weight: bold;
+    }
+
+    .click
+    
+}
